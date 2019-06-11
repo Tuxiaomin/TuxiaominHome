@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-import com.min.blog.modules.app.controller.BaseController;
 
 /**
  * <p>
@@ -19,7 +18,7 @@ import com.min.blog.modules.app.controller.BaseController;
  */
 @RestController
 @RequestMapping("/user")
-public class UserController extends BaseController {
+public class UserController {
 
     @Autowired
     UserService userService;
